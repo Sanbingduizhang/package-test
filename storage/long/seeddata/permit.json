@@ -1,0 +1,32 @@
+{
+  "data":
+  [
+    {
+      "id":1,
+      "action":"首页",
+      "act_title":"home",
+      "element":null,
+      "ele_tit":null,
+      "weight":100,
+      "pid":0
+    },
+    {
+      "id":2,
+      "action":"红袖添香",
+      "act_title":"red-sleeves",
+      "element":null,
+      "ele_tit":null,
+      "weight":99,
+      "pid":0
+    },
+    {
+      "id":3,
+      "action":"水光一色",
+      "act_title":"water-color",
+      "element":null,
+      "ele_tit":null,
+      "weight":98,
+      "pid":0
+    }
+  ]
+}

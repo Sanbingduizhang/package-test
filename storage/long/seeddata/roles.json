@@ -1,0 +1,21 @@
+{
+  "data":
+  [
+    {
+      "id":1,
+      "name":"超级管理员",
+      "status":1,
+      "type":1,
+      "created_at":null,
+      "updated_at":null
+    },
+    {
+      "id":2,
+      "name":"普通管理员",
+      "status":1,
+      "type":2,
+      "created_at":null,
+      "updated_at":null
+    }
+  ]
+}
