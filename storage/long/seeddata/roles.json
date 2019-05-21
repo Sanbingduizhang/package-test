@@ -16,6 +16,30 @@
       "type":2,
       "created_at":null,
       "updated_at":null
+    },
+    {
+      "id":3,
+      "name":"超级会员",
+      "status":1,
+      "type":3,
+      "created_at":null,
+      "updated_at":null
+    },
+    {
+      "id":4,
+      "name":"普通会员",
+      "status":1,
+      "type":4,
+      "created_at":null,
+      "updated_at":null
+    },
+    {
+      "id":5,
+      "name":"访客",
+      "status":1,
+      "type":5,
+      "created_at":null,
+      "updated_at":null
     }
   ]
 }

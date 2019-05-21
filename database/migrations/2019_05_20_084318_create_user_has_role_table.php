@@ -15,7 +15,7 @@ class CreateUserHasRoleTable extends Migration
      */
     public function up()
     {
-        if (Schema::hasTable($this->table)) {
+        if (!Schema::hasTable($this->table)) {
             Schema::create($this->table, function (Blueprint $table) {
                 $table->integer('user_id')->comment('用户id');
                 $table->integer('role_id')->comment('角色id');
