@@ -24,13 +24,13 @@ class LoginController extends Controller
         $userArr = $request->only(self::ARRU);
 
         if (count($userArr) != count(self::ARRU) || empty($userArr['code']) || empty($userArr['pwd'])) {
-            return responseFail('请填入正确的用户名和密码');
+            return responseFail(trans('messages.login_error_login'));
         }
         $checkRes = $this->userRepository->check($userArr);
 
         $token = $this->jwtToken($checkRes);
 
-        dd($token);
+        return responseSuccess(['token' => $token]);
 
     }
 
@@ -44,12 +44,14 @@ class LoginController extends Controller
         //生成参数配置
         $times = time();
         $customClaims = [
+            //可自行开启
 //            'iss' => env('JWT_ISS', "pack.com"),
 //            'iat' => $times,
 //            'nbf'=>$this->timestamp,
 //            'jti'=>$this->timestamp,
             'exp' => $times + env('JWT_EXP', 86400),
             'sub' => [
+                //可自行添加--不宜过多
                 "id" => $checkRes->id,
             ]
         ];
@@ -67,6 +69,6 @@ class LoginController extends Controller
     {
         JWTAuth::invalidate(JWTAuth::getToken());
 
-        return responseSuccess([]);
+        return responseSuccess([],trans('messages.logout_successful'));
     }
 }

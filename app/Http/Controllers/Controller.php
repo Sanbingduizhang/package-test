@@ -10,8 +10,12 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function aa()
+
+    /**
+     * 此处可以写一些基础控制器所用内容
+     */
+    public function test()
     {
-        trans();
+        dd(trans('messages.test'));
     }
 }

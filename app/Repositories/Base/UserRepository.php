@@ -46,11 +46,11 @@ class UserRepository extends BaseRepository implements RepositoryInterface
             ->where('status', '<>', User::STATUS_DEL)->first();
         //用户信息查询
         if (!$findRes) {
-            panic('用户不存在');
+            panic(trans('messages.users_not_exist'));
         }
         //检查密码信息
         if (!Hash::check($input['pwd'], $findRes->password)) {
-            panic('用户名或密码错误');
+            panic(trans('messages.user_error_ms'));
         }
 
         return $findRes;
