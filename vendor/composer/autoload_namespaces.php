@@ -10,6 +10,7 @@ return array(
     'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
+    'FtpClient' => array($vendorDir . '/nicolab/php-ftp-client/src'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
     'Barryvdh' => array($vendorDir . '/barryvdh/reflection-docblock/src'),
 );

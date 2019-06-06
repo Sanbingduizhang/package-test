@@ -14,7 +14,7 @@ class Controller extends BaseController
     /**
      * 此处可以写一些基础控制器所用内容
      */
-    public function test()
+    public function test1()
     {
         dd(trans('messages.test'));
     }
