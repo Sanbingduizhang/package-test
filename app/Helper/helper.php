@@ -46,7 +46,7 @@ function responseSuccess($data = [], $msg = '')
  * @param array $data
  * @return \Illuminate\Http\JsonResponse
  */
-function responseFail($msg = '',  $data = [], $code = 500)
+function responseFail($msg = '', $data = [], $code = 500)
 {
     return response()->json([
         'code' => $code,
@@ -74,4 +74,12 @@ function panic($msg, $code = 500)
 function getUrlSchema()
 {
     return (isset($_SERVER['HTTPS']) && 'on' == strtolower($_SERVER['HTTPS'])) ? 'https' : 'http';
+}
+
+function ftpClient()
+{
+    $ftp = new \FtpClient\FtpClient();
+    $ftp->connect('10.10.10.111');
+    $ftp->login('yijiaof', 'yijiaof');
+    return $ftp;
 }
