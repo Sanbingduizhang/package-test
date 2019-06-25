@@ -37,3 +37,4 @@ Route::group(['namespace' => 'Base', 'prefix' => 'base'], function ($api) {
 });
 
 Route::post('test','TestController@test');
+Route::post('ding','TestController@ding');
