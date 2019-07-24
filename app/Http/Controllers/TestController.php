@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Helper\Mqtt;
 use App\Helper\Test;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class TestController extends Controller
 {
@@ -22,7 +23,7 @@ class TestController extends Controller
         $server = "127.0.0.1";     // 服务代理地址(mqtt服务端地址)
         $port = 1883;                     // 通信端口
         $username = "";                   // 用户名(如果需要)
-        $password = "";                   // 密码(如果需要
+        $password = "qwerqwer";                   // 密码(如果需要
         $client_id = "clientx9293670xxctr"; // 设置你的连接客户端id
         $mqtt = new Mqtt($server, $port, $client_id); //实例化MQTT类
 
@@ -43,7 +44,7 @@ class TestController extends Controller
         $server = "127.0.0.1";     // 服务代理地址(mqtt服务端地址)
         $port = 1883;                     // 通信端口
         $username = "";                   // 用户名(如果需要)
-        $password = "";                   // 密码(如果需要
+        $password = "qwerqwer";                   // 密码(如果需要
         $client_id = "clientx9293671xxctr"; // 设置你的连接客户端id
 
         $mqtt = new Mqtt($server, $port, $client_id);
