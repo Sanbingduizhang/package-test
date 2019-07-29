@@ -18,12 +18,12 @@ class TestController extends Controller
     }
     public function showData(Request $request)
     {
-        $data = Cache::get('msg',[]);
-        return response($data)->send();
+        $data = Cache::get('msg');
+        return response(json_decode($data))->send();
     }
     public function setData(Request $request)
     {
-        Cache::put('msg',$request->all(),10);
+        Cache::put('msg',json_encode($request->all()),100);
         return responseSuccess([]);
     }
 

@@ -38,5 +38,5 @@ Route::group(['namespace' => 'Base', 'prefix' => 'base'], function ($api) {
 
 Route::post('test','TestController@test');
 Route::get('show-data','TestController@showData');
-Route::get('set-data','TestController@setData');
+Route::post('set-data','TestController@setData');
 Route::post('ding','TestController@ding');
