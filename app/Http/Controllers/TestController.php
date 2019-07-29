@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Redis;
 
 class TestController extends Controller
 {
@@ -19,14 +20,14 @@ class TestController extends Controller
     }
     public function showData(Request $request)
     {
-        $data = Cache::get('msg');
+        $data = Redis::get('msg');
         Log::info('ssss',['ssss' => $data]);
         return response($data)->send();
     }
     public function setData(Request $request)
     {
         Log::info('msh',$request->all());
-        Cache::add('msg',json_encode($request->all()),100);
+        Redis::set('msg',json_encode($request->all()));
         return responseSuccess([]);
     }
 
