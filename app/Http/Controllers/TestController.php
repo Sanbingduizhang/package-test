@@ -21,7 +21,7 @@ class TestController extends Controller
     {
         $data = Cache::get('msg');
         Log::info('ssss',['ssss' => $data]);
-        return response(json_decode($data))->send();
+        return response($data)->send();
     }
     public function setData(Request $request)
     {
