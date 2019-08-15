@@ -20,7 +20,7 @@
         "overtrue/laravel-lang": "^3.0",
         "predis/predis": "^1.1",
         "prettus/l5-repository": "^2.6",
-        "swoole/ide-helper": "~4.3.3",
+        "salmanzafar/laravel-mqtt": "^1.0",
         "tymon/jwt-auth": "1.0.*"
     },
     "require-dev": {
