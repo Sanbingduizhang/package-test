@@ -75,6 +75,7 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Swoole\\IDEHelper\\' => 17,
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
         ),
@@ -125,6 +126,10 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         array (
             'Intervention\\Image\\' => 19,
             'Illuminate\\' => 11,
+        ),
+        'H' => 
+        array (
+            'Hhxsv5\\LaravelS\\' => 16,
         ),
         'G' => 
         array (
@@ -294,6 +299,10 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Swoole\\IDEHelper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/swoole/ide-helper/src',
+        ),
         'Seld\\PharUtils\\' => 
         array (
             0 => __DIR__ . '/..' . '/seld/phar-utils/src',
@@ -397,6 +406,10 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Hhxsv5\\LaravelS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hhxsv5/laravel-s/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -522,7 +535,9 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\CustomHttpException' => __DIR__ . '/../..' . '/app/Exceptions/CustomHttpException.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Helper\\Mqtt' => __DIR__ . '/../..' . '/app/Helper/Mqtt.php',
         'App\\Helper\\SeederHelper' => __DIR__ . '/../..' . '/app/Helper/SeederHelper.php',
+        'App\\Helper\\Test' => __DIR__ . '/../..' . '/app/Helper/Test.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -1549,6 +1564,56 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Hhxsv5\\LaravelS\\Console\\Portal' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Console/Portal.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\CleanerManager' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/CleanerManager.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\AuthCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/AuthCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\CleanerInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/CleanerInterface.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\ConfigCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/ConfigCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\CookieCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/CookieCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\JWTCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/JWTCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\RequestCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/RequestCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Cleaners\\SessionCleaner' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Cleaners/SessionCleaner.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\Laravel' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/Laravel.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\LaravelSCommand' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/LaravelSCommand.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\LaravelSServiceProvider' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/LaravelSServiceProvider.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\LaravelScheduleJob' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/LaravelScheduleJob.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\ListPropertiesCommand' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/ListPropertiesCommand.php',
+        'Hhxsv5\\LaravelS\\Illuminate\\ReflectionApp' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Illuminate/ReflectionApp.php',
+        'Hhxsv5\\LaravelS\\LaravelS' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/LaravelS.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Coroutine\\Context' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Coroutine/Context.php',
+        'Hhxsv5\\LaravelS\\Swoole\\DynamicResponse' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/DynamicResponse.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Events\\BeforeStartInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Events/BeforeStartInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Events\\WorkerErrorInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Events/WorkerErrorInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Events\\WorkerStartInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Events/WorkerStartInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Events\\WorkerStopInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Events/WorkerStopInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Inotify' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Inotify.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Process\\CustomProcessInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Process/CustomProcessInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Request' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Request.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Response' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Response.php',
+        'Hhxsv5\\LaravelS\\Swoole\\ResponseInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/ResponseInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Server' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Server.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\Http' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/Http.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\HttpInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/HttpInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\PortInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/PortInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\TcpInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/TcpInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\TcpSocket' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/TcpSocket.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\UdpInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/UdpInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\UdpSocket' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/UdpSocket.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\WebSocket' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/WebSocket.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Socket\\WebSocketInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Socket/WebSocketInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\StaticResponse' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/StaticResponse.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Task\\Event' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Task/Event.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Task\\Listener' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Task/Listener.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Task\\Task' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Task/Task.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Timer\\CronJob' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Timer/CronJob.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Timer\\CronJobInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Timer/CronJobInterface.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\CustomProcessTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/CustomProcessTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\InotifyTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/InotifyTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\LaravelTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/LaravelTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\LogTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/LogTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\ProcessTitleTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/ProcessTitleTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\Traits\\TimerTrait' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/Traits/TimerTrait.php',
+        'Hhxsv5\\LaravelS\\Swoole\\WebSocketHandlerInterface' => __DIR__ . '/..' . '/hhxsv5/laravel-s/src/Swoole/WebSocketHandlerInterface.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
         'Illuminate\\Auth\\Access\\HandlesAuthorization' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php',
@@ -4263,6 +4328,8 @@ class ComposerStaticInit943c96e9ad9862df0fd5b0c57e61f1d3
         'Seld\\JsonLint\\ParsingException' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/ParsingException.php',
         'Seld\\JsonLint\\Undefined' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/Undefined.php',
         'Seld\\PharUtils\\Timestamps' => __DIR__ . '/..' . '/seld/phar-utils/src/Timestamps.php',
+        'Swoole\\IDEHelper\\Exception' => __DIR__ . '/..' . '/swoole/ide-helper/src/Exception.php',
+        'Swoole\\IDEHelper\\ExtensionDocument' => __DIR__ . '/..' . '/swoole/ide-helper/src/ExtensionDocument.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',

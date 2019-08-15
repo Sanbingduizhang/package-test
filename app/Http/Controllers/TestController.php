@@ -12,7 +12,11 @@ class TestController extends Controller
 
     public function __construct()
     {
-        $this->ftp = ftpClient();
+//        $this->ftp = ftpClient();
+    }
+    public function index(Request $request)
+    {
+        var_dump(1111);
     }
 
     public function test(Request $request)
